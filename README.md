@@ -1,6 +1,7 @@
 # Overview  
 
 This repository contains information about how to use StyleGAN2ADA to create a training dataset with High-Resolution images of rocks as follow  
+
 ![Super-Resolution results for Berea sandstone](GitHub_images/image.png)
 
 # Pre-processing  
