@@ -29,7 +29,9 @@ where
 
 # Post-processing  
 
-After the StyleGAN2ADA is trained and converged, it generates images with values in some range. To use Super-Resolution algorithm, we must put them back into a single-value values for each pixel. For the Super-Resolution code, we should choose 0, 1, 2, 3, etc. For this, You can use ```Step 3``` in the [Post_segmentation_procedure](Post_segmentation_procedure.ipynb) notebook
+1. After the StyleGAN2ADA is trained and converged, it generates images with values in some range. To use Super-Resolution algorithm, we must put them back into a single-value values for each pixel. For the Super-Resolution code, we should choose 0, 1, 2, 3, etc. For this, You can use ```Step 3``` in the [Post_segmentation_procedure](Post_segmentation_procedure.ipynb) notebook
+
+2. Next, for the Super-Resolution algorithm, we need to stack High-Resolution images. To do it, you can use [Stack.py](Stack.py)
 
 
 
