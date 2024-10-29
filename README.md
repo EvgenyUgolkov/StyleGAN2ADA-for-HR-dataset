@@ -16,7 +16,7 @@ Before running the StyleGAN2ADA for generating 2D High-Resolution segmented trai
 
 # Training  
 
-To start the training, use
+To start the training, from the the [code](stylegan2-ada-pytorch-main) folder, run
 ```
 train.py --outdir=training-runs --data=Seg_1024.zip --gpus=4
 ```
