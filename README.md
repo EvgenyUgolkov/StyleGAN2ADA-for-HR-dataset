@@ -1,3 +1,9 @@
+# Overview  
+
+This repository contains information about how to use StyleGAN2ADA to create a training dataset with High-Resolution images of rocks as follow  
+
+
+
 # Pre-processing  
 
 Before running the StyleGAN2ADA for generating 2D High-Resolution segmented training dataset, we need to pre-process the microscope images:  
