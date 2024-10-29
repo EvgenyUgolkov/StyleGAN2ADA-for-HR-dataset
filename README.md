@@ -1,3 +1,8 @@
+# Important  
+
+We apply the famous StyleGAN2ADA for generating High-Resolution images of rocks. The authentic repository can be found here  
+https://github.com/NVlabs/stylegan2-ada-pytorch
+
 # Overview  
 
 This repository contains information about how to use StyleGAN2ADA to create a training dataset with High-Resolution images of rocks as follow  
