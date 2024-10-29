@@ -15,7 +15,7 @@ Before running the StyleGAN2ADA for generating 2D High-Resolution segmented trai
 
 # Training  
 
-1. To start the training, use
+To start the training, use
 ```
 train.py --outdir=training-runs --data=Seg_1024.zip --gpus=4
 ```
