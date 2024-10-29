@@ -20,6 +20,11 @@ where
 
 ```--data``` zip-archive with training dataset  
 
-```--gpus``` number of available GPUs
+```--gpus``` number of available GPUs  
+
+# Post-processing  
+
+After the StyleGAN2ADA is trained and converged, it generates images with values in some range. To use Super-Resolution algorithm, we must put them back into a single-value values for each pixel. For the Super-Resolution code, we should choose 0, 1, 2, 3, etc. For this, You can use ```Step 3``` in the [Post_segmentation_procedure]
+
 
 
